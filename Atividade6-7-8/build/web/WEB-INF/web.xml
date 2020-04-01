@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>CadastraLogin</servlet-name>
+        <servlet-class>Servlets.CadastraLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastraAluno</servlet-name>
+        <servlet-class>Servlets.CadastraAluno</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logar</servlet-name>
+        <servlet-class>Servlets.Logar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CadastraLogin</servlet-name>
+        <url-pattern>/CadastraLogin</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>exer3.1.html</welcome-file>
+    </welcome-file-list>
+    <servlet-mapping>
+        <servlet-name>CadastraAluno</servlet-name>
+        <url-pattern>/CadastraAluno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logar</servlet-name>
+        <url-pattern>/Logar</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
