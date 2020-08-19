@@ -4,6 +4,6 @@
 
 ### • • •
 
-# Edit: Também há parte back-end conectando com o banco, que foi utilizado:
+## Edit: Também há parte back-end conectando com o banco, que foi utilizado:
 ### • O SGBD PostgreSQL 9.3;
 ### • Servidor local Glassfish 4.1.1.
